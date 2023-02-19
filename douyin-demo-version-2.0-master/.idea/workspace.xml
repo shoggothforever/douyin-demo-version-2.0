@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="233bd427-6c78-4b7e-a5d5-425c32d71bc3" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../config/config.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../config/config.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../controller/comment.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../controller/common.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../controller/demo_data.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../controller/favorite.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../controller/feed.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../controller/message.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../controller/publish.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../controller/relation.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../controller/user.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dal/init_db.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dal/initmysql.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dal/initredis.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../database.drawio" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../go.mod" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../go.sum" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../handler/Comment/comment_dao.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../handler/Comment/comment_list_handler.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../handler/Comment/publish_comment_handler.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../handler/Interact/follow.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../handler/Like/like_dao.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../handler/Like/like_handler.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../handler/Like/like_list_handler.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../handler/USer/common.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../handler/USer/user_login_handler.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../handler/USer/user_register_dao.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../handler/USer/user_register_handler.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../handler/USer/user_register_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../handler/USer/user_relation_dao.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../handler/USer/userinfo_dao.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../handler/USer/userinfo_handler.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../handler/Video/Video_feed_handler.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../handler/Video/publish_video_handler.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../handler/Video/publish_video_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../handler/Video/user_publishlist_handler.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../handler/Video/video_dao.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../handler/Video/video_feed_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../handler/Video/video_relation_dao.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../middleware/aes.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../middleware/aes_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../middleware/diff_ffmpeg.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../middleware/ffmpeg.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../middleware/ffmpeg_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../middleware/jwt.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../middleware/jwt_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../middleware/minio.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../middleware/minio_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../middleware/snowflake.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../middleware/token_bucket.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minio/data/.minio.sys/buckets/.bloomcycle.bin/xl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minio/data/.minio.sys/buckets/.tracker.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minio/data/.minio.sys/buckets/.usage-cache.bin/xl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minio/data/.minio.sys/buckets/.usage.json/xl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minio/data/.minio.sys/buckets/douyin/.metadata.bin/xl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minio/data/.minio.sys/buckets/douyin/.usage-cache.bin/xl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minio/data/.minio.sys/config/config.json/xl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minio/data/.minio.sys/config/iam/format.json/xl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minio/data/.minio.sys/format.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minio/data/.minio.sys/pool.bin/xl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minio/docker-compose.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nginx/douyin.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/bear.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/douyinbear.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../router.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../service/Minio.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../service/message.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/base_api_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/common.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/interact_api_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/message_server_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/social_api_test.go" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" url="file://E:/GO" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="false" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/handler/Comment/comment_dao.go" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/handler/Comment/publish_comment_handler.go" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/handler/USer/userinfo_dao.go" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/handler/USer/userinfo_handler.go" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/controller/common.go" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://E:/gopath/pkg/mod/github.com/!raymond!code/simple-demo@v0.0.0-20230109111057-5031aee01508/controller/favorite.go" root0="SKIP_INSPECTION" />
+    <setting file="file://E:/gopath/pkg/mod/github.com/!raymond!code/simple-demo@v0.0.0-20230109111057-5031aee01508/controller/user.go" root0="SKIP_INSPECTION" />
+    <setting file="file://E:/gopath/pkg/mod/github.com/!raymond!code/simple-demo@v0.0.0-20230109111057-5031aee01508/controller/common.go" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/controller/comment.go" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/middleware/aes_test.go" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://E:/gopath/pkg/mod/github.com/!raymond!code/simple-demo@v0.0.0-20230109111057-5031aee01508/controller/publish.go" root0="SKIP_INSPECTION" />
+    <setting file="file://E:/gopath/pkg/mod/github.com/!raymond!code/simple-demo@v0.0.0-20230109111057-5031aee01508/controller/demo_data.go" root0="SKIP_INSPECTION" />
+    <setting file="file://E:/gopath/pkg/mod/github.com/!raymond!code/simple-demo@v0.0.0-20230109111057-5031aee01508/controller/relation.go" root0="SKIP_INSPECTION" />
+    <setting file="file://E:/gopath/pkg/mod/github.com/!raymond!code/simple-demo@v0.0.0-20230109111057-5031aee01508/controller/comment.go" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/router.go" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/handler/USer/user_register_test.go" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://E:/gopath/pkg/mod/github.com/!raymond!code/simple-demo@v0.0.0-20230109111057-5031aee01508/controller/message.go" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/handler/USer/common.go" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/handler/USer/user_register_handler.go" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/handler/USer/user_relation_dao.go" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/middleware/ffmpeg.go" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/handler/Comment/comment_list_handler.go" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://E:/GO/src/builtin/builtin.go" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2LxhJSTyUIpOkP6WewAthVBG12O" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="go.format.on.save.advertiser.fired" value="true" />
+    <property name="go.formatter.settings.were.checked" value="true" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="go.modules.go.list.on.any.changes.was.set" value="true" />
+    <property name="go.sdk.automatically.set" value="true" />
+    <property name="go.watchers.conflict.with.on.save.actions.check.performed" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.DirectoryMappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\desktop\DDL\douyin-demo-version-2.0-master\config" />
+      <recent name="D:\desktop\DDL\douyin-demo-version-2.0-master\dal" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="go build douyin.core" type="GoApplicationRunConfiguration" factoryName="Go Application" nameIsGenerated="true">
+      <module name="douyin-demo-version-2.0-master" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="DIRECTORY" />
+      <package value="douyin.core" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
+  </component>
+</project>
